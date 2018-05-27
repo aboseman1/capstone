@@ -255,6 +255,10 @@ font-family: 'Prompt', sans-serif;
 .button {
   text-align: center;
   }
+
+  .button a {
+    color: white;
+  }
     .title .button {
     background-color: black;
     padding: .5rem .1rem;
@@ -367,7 +371,7 @@ font-family: 'Prompt', sans-serif;
   font-style: italic;
   padding-bottom: 1rem;
   width: 80%;
-  color: rgba(207,181,59,0.9);
+  color: white;
 }
 
 .box-content h2 {
@@ -375,6 +379,7 @@ font-family: 'Prompt', sans-serif;
   font-size: 1rem
   padding-bottom: 1rem;
   width: 90%;
+  line-height: 1.2;
 }
 
 .box-content #read {
@@ -383,6 +388,7 @@ font-family: 'Prompt', sans-serif;
   font-size: 1.25rem;
   text-decoration: none;
 }
+
 
 /* Second Section Mobile Styles */
 @media only screen and (max-width: 540px) and (min-width: 180px) {
@@ -394,6 +400,7 @@ font-family: 'Prompt', sans-serif;
   body {
     width: 100%;
   }
+
   .second-content {
     display: flex;
     flex-direction: column;
@@ -426,7 +433,6 @@ font-family: 'Prompt', sans-serif;
     flex-direction: column;
     width: 100%;
     font-family: 'Prompt', sans-serif;
-
   }
 
   .box1 {
@@ -733,6 +739,8 @@ font-family: 'Prompt', sans-serif;
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
+  clear: both;
+
 }
 
 .video {
@@ -749,7 +757,8 @@ font-family: 'Prompt', sans-serif;
   flex-direction: column;
   width: 100%;
   border-bottom: 1px solid gray;
-  font-family: 'Prompt', sans-serif;
+  font-family: 'Prompt', sans-serif
+  clear: inherit;
 }
 
 .description4 h1 {
@@ -887,6 +896,7 @@ font-family: 'Prompt', sans-serif;
 }
 
 /* Footer Section Mobile Styles */
+@media only screen and (max-width: 540px) and (min-width: 180px) {
 
 .footer {
   display: flex;
