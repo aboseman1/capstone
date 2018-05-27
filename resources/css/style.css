@@ -4,6 +4,7 @@ html {
 
 body {
 }
+
 header {
   position: fixed;
   top: 0rem;
@@ -257,7 +258,7 @@ width: 35%;
 
   .description p {
     padding-bottom: 2.5rem;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .details {
@@ -296,15 +297,17 @@ width: 35%;
 }
 
 .box-content h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   padding-bottom: 1rem;
+  width: 80%;
 }
 
 .box-content h2 {
   font-weight: 100;
   font-size: 1rem
   padding-bottom: 1rem;
+  width: 90%;
 }
 
 .box-content #read {
@@ -317,7 +320,7 @@ width: 35%;
 /* Third Section */
 
 .third-content {
-  background-color: black;
+background-color: rgba(207,181,59,0.6);
   width: 100%;
   height: 40rem;
 }
@@ -327,10 +330,18 @@ width: 35%;
 
 /* Fourth Section */
 
+#headline {
+ text-align: center;
+ font-weight: bold;
+ font-size: 3rem;
+ padding-top: 2rem;
+}
 .fourth-content {
-  background-color: rgba(207,181,59,0.6);
+  display: flex;
+  justify-content: flex-start;
   width: 100%;
-  height: 50rem;
+  height: 30rem;
+  padding-top: 2rem;
 }
 
 .section4 {
@@ -338,7 +349,6 @@ width: 35%;
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  padding-top: 10rem;
 }
 
 .video {
@@ -348,6 +358,28 @@ width: 35%;
 
 .video video {
   width: 100%;
+}
+
+.description4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+
+.description4 h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-bottom: .5rem;
+  width: 60%;
+  padding-left: 1.5rem;
+}
+
+.description4 p {
+  padding-bottom: 2rem;
+  font-size: 1.25rem;
+  width: 55%;
+  padding-left: 1.5rem;
 }
 
 .details {
@@ -389,4 +421,23 @@ width: 35%;
   height: 80%;
   margin: 1.5rem;
   border-radius: 0.5rem;
+}
+
+/* Footer Section */
+
+.footer {
+  display: flex;
+  align-items:: center;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.footer h1 {
+  flex-grow: 1;
+  font-size: 1rem;
+}
+
+.footer span {
+  padding-right: 1.5rem;
+  font-size: 1rem;
 }
