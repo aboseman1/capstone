@@ -751,7 +751,7 @@ font-family: 'Prompt', sans-serif;
   margin: 1.5rem;
 }
 
-.video video {
+.video iframe {
   width: 100%;
 }
 
@@ -866,7 +866,7 @@ font-family: 'Prompt', sans-serif;
   margin: 0rem;
 }
 
-.video video {
+.video iframe {
   width: 100%;
 }
 
