@@ -488,8 +488,9 @@ font-family: 'Prompt', sans-serif;
   .box-content #read {
   padding-top: 1rem;
   color: blue;
-  font-size: 1.25rem;
+  font-size: 1rem;
   text-decoration: none;
+  text-align: left;
   }
 }
 
